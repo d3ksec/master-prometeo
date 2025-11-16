@@ -59,7 +59,6 @@ a {
 
 
 header {
-  padding: var(--spacing);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -68,6 +67,8 @@ header {
   top: 0 
   z-index: 1000;
   width: 100%;
+  height: auto
+  box-sizing: border-box;
 }
 
 header > nav > ul {
@@ -125,4 +126,7 @@ footer {
 
 main {
   padding: 150px;
+  font-size: 0.9em;
+  padding-left: 5px;
+  padding-right: 5px;
 }
