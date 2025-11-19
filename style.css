@@ -152,4 +152,9 @@ main {
         flex-direction: column; 
         gap: 5px;
     }
+    .galeria {
+        align-items: left;
+        grid-auto-rows: auto;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
 }
